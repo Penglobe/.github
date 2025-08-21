@@ -1,0 +1,15 @@
+name: ✨ Feature Request
+description: 새로운 기능 제안
+title: "[FEAT] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: 어떤 기능이 필요한가요?
+      placeholder: 회원 프로필 수정 기능이 필요합니다
+  - type: textarea
+    id: reason
+    attributes:
+      label: 왜 필요한가요?
+      placeholder: 사용자 편의성 향상
