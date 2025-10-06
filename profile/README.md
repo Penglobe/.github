@@ -11,13 +11,16 @@
 ## 📽️ 데모 & 자료 모음
 
 ### 🎬 시연 영상  
-<video src="./Penglobe_Demo.mp4" controls width="100%" title="Penglobe 시연 영상"></video>  
-[▶️ 시연 영상 바로보기](./Penglobe_Demo.mp4)
+> [▶️ 시연 영상 바로보기 (Google Drive)](https://drive.google.com/file/d/1e97pq4gYXMU9lzTcpQ6OluwVyoFs7QQT/view?usp=sharing)
+
+[🔗 미리보기 (Drive Player)](https://drive.google.com/file/d/1e97pq4gYXMU9lzTcpQ6OluwVyoFs7QQT/preview)
 
 ---
 
 ### 🎤 실사용자 인터뷰  
-<video src="./Penglobe_Interview.mp4" controls width="100%" title="Penglobe 실사용자 인터뷰"></video>  
+> [🎧 인터뷰 영상 바로보기 (Google Drive)](https://drive.google.com/file/d/19bxkwbrXZdF3JYh2HtyigsmyPSMhiUoA/view?usp=sharing)
+
+[🔗 미리보기 (Drive Player)](https://drive.google.com/file/d/19bxkwbrXZdF3JYh2HtyigsmyPSMhiUoA/preview)
 
 > 💬 “걷기만 해도 탄소 절감 수치를 보니 성취감이 생겼어요.”  
 > 💬 “귀여운 캐릭터와 보상 덕분에 재미있게 참여했어요.”
@@ -25,11 +28,11 @@
 ---
 
 ### 🧾 프로젝트 자료  
+
 | 구분 | 링크 |
 |------|------|
-| 📘 **발표자료 (PDF)** | [Penglobe_PPT.pdf](./Penglobe_PPT.pdf) |
-| 📎 **Google Drive 보기** | [발표자료 열기](https://drive.google.com/file/d/1TxJOo8iOC8iPcuNoGpmmCH_jrwyN_2Fw/view?usp=sharing) |
-| 📄 **요구사항 명세서** | [Penglobe_Requirement.pdf](./Penglobe_Requirement.pdf) |
+| 📘 **발표자료 (PDF)** | [Drive 보기](https://drive.google.com/file/d/1TxJOo8iOC8iPcuNoGpmmCH_jrwyN_2Fw/view?usp=sharing) |
+| 📄 **요구사항 명세서** | [Drive 보기](https://drive.google.com/file/d/1TxJOo8iOC8iPcuNoGpmmCH_jrwyN_2Fw/view?usp=sharing) |
 
 ---
 
@@ -148,7 +151,7 @@ flowchart LR
 | 실제 친환경 행동 증가율 | 83.3%                     |
 | 주요 피드백        | “쉽고 재미있다”, “습관처럼 사용하게 된다” |
 
->  실제 사용자 테스트에서 **친환경 실천 동기부여 효과 94%**,
+> 실제 사용자 테스트에서 **친환경 실천 동기부여 효과 94%**,
 > **행동 변화율 83%** 달성
 
 ---
@@ -172,3 +175,6 @@ flowchart LR
 | 🖥️ **Backend** | [Penglobe/server](https://github.com/Penglobe/server) |
 | 📱 **Frontend** | [Penglobe/front](https://github.com/Penglobe/front)   |
 
+
+그림으로 첫인상 확실히 주고 싶으신가요? (예: 로고나 서비스 메인화면 캡처)
+```
