@@ -122,7 +122,7 @@ flowchart LR
 
 ---
 
-## 📈 시범 운영 결과
+## 📈 시범 운영
 
 | 항목            | 결과                        |
 | ------------- | ------------------------- |
@@ -157,5 +157,3 @@ flowchart LR
 | 📱 **Frontend** | [Penglobe/front](https://github.com/Penglobe/front)   |
 
 
-그림으로 첫인상 확실히 주고 싶으신가요? (예: 로고나 서비스 메인화면 캡처)
-```
