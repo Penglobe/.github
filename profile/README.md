@@ -1,10 +1,40 @@
 
 # 🐧 Penglobe - 생활 속 실천을 가치로 전환하는 환경 금융 플랫폼
-## 🏆 신한금융 SW 아카데미 5기 — 최우수상 수상작**  
+## 🏆 신한금융 SW 아카데미 5기 — 최우수상 수상작
 
 > “**걸을수록, 지구가 가벼워집니다.**”  
-> 개인의 친환경 실천을 **데이터와 보상**으로 연결하는 플랫폼입니다.  
-> 실시간 이동·식습관·미션 데이터를 기반으로 **탄소 절감량을 시각화하고 보상으로 전환**합니다.
+> Penglobe는 일상의 친환경 실천을 **데이터와 보상으로 연결하는 환경 금융 플랫폼**입니다.  
+> 사용자가 걸을 때마다, 식사를 선택할 때마다, 탄소 절감 데이터가 쌓이고  
+> 그 노력은 **빙하를 회복시키며 펭귄 ‘이파’와 ‘토리’를 다시 만나게 합니다.**  
+> 친환경 행동이 시각적으로 보상되는 ‘감정 피드백형 홈화면’을 통해  
+> 즐겁게 지속 가능한 변화를 만들어갑니다. 
+
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/9f5fcc86-e5a3-4f66-a90a-922dc9b72468" width="23%" />
+  <img src="https://github.com/user-attachments/assets/0a35894a-c5c7-4e17-9aa3-033045c503dc" width="23%" />
+  <img src="https://github.com/user-attachments/assets/218b3d5a-957b-4d1c-8ac3-f0a5639cd477" width="23%" />
+  <img src="https://github.com/user-attachments/assets/7aefd07c-65ff-4ad8-b7b8-83668eb2676f" width="23%" />
+</div>
+
+<br/>
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="33%"><b>🥾 펭걸음</b></td>
+    <td align="center" width="33%"><b>🍱 빙하 식탁</b></td>
+    <td align="center" width="33%"><b>📊 빙하 리포트</b></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://github.com/user-attachments/assets/738a94db-a323-4dae-9755-a1d21eb2ab3b" width="100%"/></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/058bcddf-508a-4f88-ac37-b8620799df57" width="100%"/></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/090dc4e7-1871-415a-a9fd-0883adae5fc6" width="100%"/></td>
+  </tr>
+</table>
+
+</div>
 
 ---
 
@@ -12,8 +42,8 @@
 
 * 🎬 [**시연 영상**](https://drive.google.com/file/d/1e97pq4gYXMU9lzTcpQ6OluwVyoFs7QQT/view?usp=sharing) — 실제 앱 시연 장면
 * 🎤 [**사용자 인터뷰 영상**](https://drive.google.com/file/d/19bxkwbrXZdF3JYh2HtyigsmyPSMhiUoA/view?usp=sharing) — 실제 사용자 반응 인터뷰
-* 🧾 [**프로젝트 발표자료 (PPT)**](./Penglobe_PPT.pdf) — 최종 발표용 슬라이드
-* 📄 [**요구사항 명세서**](./Penglobe_Requirement.pdf) — 기능 및 시스템 상세 정의서
+- 🧾 [**프로젝트 발표자료 (PPT)**](../Penglobe_PPT.pdf) — 최종 발표용 슬라이드  
+- 📄 [**요구사항 명세서**](../Penglobe_Requirement.pdf) — 기능 및 시스템 상세 정의서  
 
 ---
 
@@ -24,8 +54,8 @@
 | 🥾 **펭걸음** | GPS 기반 이동 추적 및 교통수단별 탄소 절감 계산 |
 | 🍱 **빙하 식탁** | FoodLens SDK + AI로 식단 탄소 배출량 분석 |
 | 📊 **빙하 리포트** | 설문 + AI 피드백 기반 1일 탄소 리포트 제공 |
-| 🧊 **얼음 시스템** | 절감 포인트(얼음)으로 친환경 제품 구매/기부 |
-| 🏅 **랭킹·퀴즈·미션** | 게임 요소로 지속적 참여 유도 |
+| 🧊 **얼음 거래소** | 절감 포인트(얼음)으로 친환경 제품 구매/기부 |
+| 🏅 **랭킹·퀴즈·미션** | 소속감과 경쟁으로 지속적 참여 유도 |
 
 ---
 
@@ -43,7 +73,7 @@
 ---
 
 <details>
-<summary>🏗️ 전체 아키텍처 보기 </summary>
+<summary><h2>🏗️ 전체 아키텍처 보기</h2></summary>
 
 ```mermaid
 flowchart LR
@@ -129,11 +159,9 @@ flowchart LR
 | 운영 기간         | 2025.09.20 ~ 2025.09.28   |
 | 참여자 수         | 30명                       |
 | 긍정 응답률        | 94.4%                     |
-| 실제 친환경 행동 증가율 | 83.3%                     |
 | 주요 피드백        | “쉽고 재미있다”, “습관처럼 사용하게 된다” |
 
-> 실제 사용자 테스트에서 **친환경 실천 동기부여 효과 94%**,
-> **행동 변화율 83%** 달성
+> 실제 사용자 테스트에서 **친환경 실천 동기부여 효과 94%**
 
 ---
 
