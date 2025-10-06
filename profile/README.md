@@ -8,31 +8,14 @@
 
 ---
 
-## 📽️ 데모 & 자료 모음
+## 📽️ 데모 & 자료
 
-### 🎬 시연 영상  
-> [▶️ 시연 영상 바로보기 (Google Drive)](https://drive.google.com/file/d/1e97pq4gYXMU9lzTcpQ6OluwVyoFs7QQT/view?usp=sharing)
 
-[🔗 미리보기 (Drive Player)](https://drive.google.com/file/d/1e97pq4gYXMU9lzTcpQ6OluwVyoFs7QQT/preview)
-
----
-
-### 🎤 실사용자 인터뷰  
-> [🎧 인터뷰 영상 바로보기 (Google Drive)](https://drive.google.com/file/d/19bxkwbrXZdF3JYh2HtyigsmyPSMhiUoA/view?usp=sharing)
-
-[🔗 미리보기 (Drive Player)](https://drive.google.com/file/d/19bxkwbrXZdF3JYh2HtyigsmyPSMhiUoA/preview)
-
-> 💬 “걷기만 해도 탄소 절감 수치를 보니 성취감이 생겼어요.”  
-> 💬 “귀여운 캐릭터와 보상 덕분에 재미있게 참여했어요.”
-
----
-
-### 🧾 프로젝트 자료  
-
-| 구분 | 링크 |
-|------|------|
-| 📘 **발표자료 (PDF)** | [Drive 보기](https://drive.google.com/file/d/1TxJOo8iOC8iPcuNoGpmmCH_jrwyN_2Fw/view?usp=sharing) |
-| 📄 **요구사항 명세서** | [Drive 보기](https://drive.google.com/file/d/1TxJOo8iOC8iPcuNoGpmmCH_jrwyN_2Fw/view?usp=sharing) |
+[Penglobe_PPT_compressed.pdf](https://github.com/user-attachments/files/22718694/Penglobe_PPT_compressed.pdf)
+* 🎬 [**시연 영상**](https://drive.google.com/file/d/1e97pq4gYXMU9lzTcpQ6OluwVyoFs7QQT/view?usp=sharing) — 실제 앱 시연 장면
+* 🎤 [**사용자 인터뷰 영상**](https://drive.google.com/file/d/19bxkwbrXZdF3JYh2HtyigsmyPSMhiUoA/view?usp=sharing) — 실제 사용자 반응 인터뷰
+* 🧾 [**프로젝트 발표자료 (PPT)**](./Penglobe_PPT.pdf) — 최종 발표용 슬라이드
+* 📄 [**요구사항 명세서**](./Penglobe_Requirement.pdf) — 기능 및 시스템 상세 정의서
 
 ---
 
