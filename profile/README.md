@@ -1,47 +1,174 @@
 
+# 🐧 Penglobe - 생활 속 실천을 가치로 전환하는 환경 금융 플랫폼
+**🏆 신한금융 SW 아카데미 5기 — 최우수상 수상작**  
 
-# 🐧 Penglobe
-
-안녕하세요, **Penglobe** 팀입니다 🌍
-저희는 **탄소 절감과 친환경 생활을 돕는 서비스**를 개발하고 있습니다.
-
----
-
-## 🚀 프로젝트 소개
-
-* **백엔드:** Spring Boot (Java 17, Gradle, MariaDB, Spring Security, JPA)
-* **프론트엔드:** React Native (모바일 앱)
-* **협업:** GitHub, Notion, Slack
+> “**걸을수록, 지구가 가벼워집니다.**”  
+> 개인의 친환경 실천을 **데이터와 보상**으로 연결하는 플랫폼입니다.  
+> 실시간 이동·식습관·미션 데이터를 기반으로 **탄소 절감량을 시각화하고 보상으로 전환**합니다.
 
 ---
 
-## 📂 주요 기능
+## 📽️ 데모 & 자료 모음
 
-* 🔑 **회원가입 & 로그인** (이메일 인증, 카카오 소셜 로그인)
-* 🌱 **탄소 절감 계산기** (이동 수단, 걸음 수 기반 절약량 계산, 식단 탄소 배출량 계산)
-* 📝 **설문조사** (일일 참여, 탄소 배출 통계 반영)
-* 🎯 **퀴즈 & 미션** (환경 지식 퀴즈, 출석/누적 미션)
-* 🛍️ **굿즈샵** (포인트로 친환경 굿즈 교환)
-* 🏆 **랭킹 시스템** (지역/개인/전체 기준 랭킹 제공)
+### 🎬 시연 영상  
+<video src="./Penglobe_Demo.mp4" controls width="100%" title="Penglobe 시연 영상"></video>  
+[▶️ 시연 영상 바로보기](./Penglobe_Demo.mp4)
 
 ---
 
-## 👥 팀원
+### 🎤 실사용자 인터뷰  
+<video src="./Penglobe_Interview.mp4" controls width="100%" title="Penglobe 실사용자 인터뷰"></video>  
 
-* fullstack 5명 : Spring Boot 기반 API + React Native 앱 개발
-
----
-
-## 📌 현재 상태
-
-* ✅ **서버 레포지토리 초기 세팅 완료** (`server`)
-* ✅ Organization 레벨 **Issue/PR 템플릿 설정** 완료 (`.github`)
-* 🔄 기능 단위 개발 진행 예정 (회원가입/로그인 → 환경걸음 → 설문조사 …)
+> 💬 “걷기만 해도 탄소 절감 수치를 보니 성취감이 생겼어요.”  
+> 💬 “귀여운 캐릭터와 보상 덕분에 재미있게 참여했어요.”
 
 ---
 
+### 🧾 프로젝트 자료  
+| 구분 | 링크 |
+|------|------|
+| 📘 **발표자료 (PDF)** | [Penglobe_PPT.pdf](./Penglobe_PPT.pdf) |
+| 📎 **Google Drive 보기** | [발표자료 열기](https://drive.google.com/file/d/1TxJOo8iOC8iPcuNoGpmmCH_jrwyN_2Fw/view?usp=sharing) |
+| 📄 **요구사항 명세서** | [Penglobe_Requirement.pdf](./Penglobe_Requirement.pdf) |
 
-## 🌍 목표
+---
 
-작은 걸음이 지구를 바꿉니다.
-Penglobe는 **사용자의 친환경 활동을 데이터로 기록하고, 보상하며, 행동 변화를 이끄는 서비스**를 목표로 합니다.
+## 🧩 핵심 기능
+
+| 기능 | 설명 |
+|------|------|
+| 🥾 **펭걸음** | GPS 기반 이동 추적 및 교통수단별 탄소 절감 계산 |
+| 🍱 **빙하 식탁** | FoodLens SDK + AI로 식단 탄소 배출량 분석 |
+| 📊 **빙하 리포트** | 설문 + AI 피드백 기반 1일 탄소 리포트 제공 |
+| 🧊 **얼음 시스템** | 절감 포인트(얼음)으로 친환경 제품 구매/기부 |
+| 🏅 **랭킹·퀴즈·미션** | 게임 요소로 지속적 참여 유도 |
+
+---
+
+## ⚙️ 기술 스택
+
+| 영역 | 기술 |
+|------|------|
+| **Backend** | Java, Spring Boot, Spring Security, JPA, Swagger |
+| **Frontend** | React Native, Expo, TailwindCSS |
+| **Database** | MariaDB |
+| **AI / SDK** | Groq LLM API, FoodLens SDK |
+| **Infra / Deploy** | Ubuntu 22.04, Docker |
+| **Collaboration** | GitHub, Figma, Notion, Slack |
+
+---
+
+<details>
+<summary>🏗️ 전체 아키텍처 보기 </summary>
+
+```mermaid
+flowchart LR
+    %% =========================
+    %% CLIENT
+    subgraph Client["프론트엔드 (React Native + Expo)"]
+        RN["📱 React Native App"]
+        FOODLENS["🍱 FoodLens SDK (AI 음식 인식)"]
+        EXPO["📷 Expo SDK (Camera, Location 등)"]
+    end
+
+    %% =========================
+    %% BACKEND
+    subgraph Backend["백엔드 (Spring Boot)"]
+        API["🧩 REST API"]
+        SEC["🔐 Spring Security + JWT"]
+        SWAGGER["📜 Swagger UI"]
+        JPA["🗃️ Spring Data JPA + Hibernate"]
+    end
+
+    %% =========================
+    %% DATABASE
+    subgraph Database["데이터베이스 (MariaDB)"]
+        DB[("💾 MariaDB")]
+    end
+
+    %% =========================
+    %% EXTERNAL API
+    subgraph External["외부 API & 서비스"]
+        KAKAO["🗺️ 카카오 지도 API"]
+        PORTONE["💳 PortOne (아임포트) 결제 API"]
+        GROQ["🤖 Groq LLM API"]
+    end
+
+    %% =========================
+    %% INFRA
+    subgraph Infra["배포 환경 (Ubuntu + Docker)"]
+        UBUNTU["🟠 Ubuntu 22.04 서버"]
+        DOCKER["🐳 Docker 컨테이너"]
+    end
+
+    %% =========================
+    %% CONNECTIONS
+    RN --> API
+    RN --> FOODLENS
+    RN --> EXPO
+    API --> SEC
+    API --> SWAGGER
+    API --> JPA
+    API --> DB
+    API --> KAKAO
+    API --> PORTONE
+    API --> GROQ
+    UBUNTU --> DOCKER
+    DOCKER --> API
+    DOCKER --> DB
+
+    %% =========================
+    %% STYLE
+    style RN fill:#61DAFB,stroke:#000,stroke-width:1px,color:#000
+    style API fill:#6DB33F,stroke:#2c662d,stroke-width:1px,color:#fff
+    style SEC fill:#6DB33F,stroke:#2c662d,stroke-width:1px,color:#fff
+    style SWAGGER fill:#6DB33F,stroke:#2c662d,stroke-width:1px,color:#fff
+    style JPA fill:#6DB33F,stroke:#2c662d,stroke-width:1px,color:#fff
+    style DB fill:#003545,stroke:#001f2a,stroke-width:1px,color:#fff
+    style FOODLENS fill:#FF6F61,stroke:#c94d44,stroke-width:1px,color:#fff
+    style KAKAO fill:#FFCD00,stroke:#bba100,stroke-width:1px,color:#000
+    style PORTONE fill:#0064FF,stroke:#003d99,stroke-width:1px,color:#fff
+    style GROQ fill:#FF4A4A,stroke:#b92f2f,stroke-width:1px,color:#fff
+    style UBUNTU fill:#E95420,stroke:#b23d16,stroke-width:1px,color:#fff
+    style DOCKER fill:#2496ED,stroke:#1866a6,stroke-width:1px,color:#fff
+    style EXPO fill:#000000,stroke:#333333,stroke-width:1px,color:#fff
+````
+
+</details>
+
+---
+
+## 📈 시범 운영 결과
+
+| 항목            | 결과                        |
+| ------------- | ------------------------- |
+| 운영 기간         | 2025.09.20 ~ 2025.09.28   |
+| 참여자 수         | 30명                       |
+| 긍정 응답률        | 94.4%                     |
+| 실제 친환경 행동 증가율 | 83.3%                     |
+| 주요 피드백        | “쉽고 재미있다”, “습관처럼 사용하게 된다” |
+
+>  실제 사용자 테스트에서 **친환경 실천 동기부여 효과 94%**,
+> **행동 변화율 83%** 달성
+
+---
+
+## 👥 팀 Penglobe
+
+| 이름      | 담당 기능     | 주요 역할                                 |
+| ------- | --------- | ------------------------------------- |
+| **최원정** | 🧊 미션     | 회원가입·로그인, 얼음 거래소, 결제                  |
+| **최은진** | 🥾 펭걸음    | GPS 이동 추적, 서버/DB 배포, 백엔드 아키텍처         |
+| **한진호** | 🏅 랭킹     | 지역/주간/전체 랭킹, 내 정보, 자동화 로직             |
+| **김세연** | 🍱 빙하 식탁  | FoodLens SDK 연동, LLM 연결, 홈 구성, iOS 빌드 |
+| **최희정** | 📊 빙하 리포트 | 설문 리포트, AI 피드백, 퀴즈/관리자 페이지, 운영관리      |
+
+---
+
+## 🔗 리포지토리
+
+| 구분              | 링크                                                    |
+| --------------- | ----------------------------------------------------- |
+| 🖥️ **Backend** | [Penglobe/server](https://github.com/Penglobe/server) |
+| 📱 **Frontend** | [Penglobe/front](https://github.com/Penglobe/front)   |
+
