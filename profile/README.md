@@ -10,8 +10,6 @@
 
 ## 📽️ 데모 & 자료
 
-
-[Penglobe_PPT_compressed.pdf](https://github.com/user-attachments/files/22718694/Penglobe_PPT_compressed.pdf)
 * 🎬 [**시연 영상**](https://drive.google.com/file/d/1e97pq4gYXMU9lzTcpQ6OluwVyoFs7QQT/view?usp=sharing) — 실제 앱 시연 장면
 * 🎤 [**사용자 인터뷰 영상**](https://drive.google.com/file/d/19bxkwbrXZdF3JYh2HtyigsmyPSMhiUoA/view?usp=sharing) — 실제 사용자 반응 인터뷰
 * 🧾 [**프로젝트 발표자료 (PPT)**](./Penglobe_PPT.pdf) — 최종 발표용 슬라이드
